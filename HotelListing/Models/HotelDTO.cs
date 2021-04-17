@@ -27,6 +27,9 @@ namespace HotelListing.Models
     {
         public int Id { get; set; }
         public CountryDTO country { get; set; }
+
+        //public virtual IList<country> countries { get; set; }
+
     }
 
 }
